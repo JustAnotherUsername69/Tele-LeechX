@@ -331,8 +331,7 @@ for a in app:
 
 isUserPremium = False
 if STRING_SESSION:
-    if userBot := Client(
-        "Tele-UserBot",
+    if userBot := Client("Akshay"),
         api_id=APP_ID[0],
         api_hash=API_HASH[0],
         session_string=STRING_SESSION,
